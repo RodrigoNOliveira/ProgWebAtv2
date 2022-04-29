@@ -1,0 +1,84 @@
+body{
+    background-color: #043045;
+}
+
+#contSup{
+
+ 
+    height: 35vh;
+    width: 45vw;
+    border: 0.2em solid #19a0e9;
+    margin: 0 auto;
+    margin-top: 5vh;
+
+    display: flex;
+    flex-direction:row;
+    /* flex-wrap: wrap; */
+
+    justify-content: space-between;
+     align-items:stretch;
+
+
+}
+
+.ret{
+    
+        height: 17.5vh;
+        width: 5vw;
+       background-color: #436899;
+
+}
+
+
+.um{
+    margin: 0 auto ;
+    margin-top: 17.5vh;
+    
+}
+
+
+.dois{
+    margin: 0 auto;
+    
+}
+
+.tres{
+    margin: 0 auto;
+    margin-top: 8.75vh;
+}
+
+
+#contInf{
+
+    padding: 0.3vh;
+    height: 35vh;
+    width: 45vw;
+    border: 0.2em solid #19a0e9;
+    margin: 0 auto;
+    margin-top: 5vh;
+
+    display: flex;
+    flex-direction: row;
+
+    justify-content: space-between;
+    align-items: stretch;
+
+
+}
+
+.item{
+    border: 0.3vh solid #e58a88;
+}
+
+.prim{
+    flex-grow: 1;
+}
+
+.seg{
+    flex-grow: 2;
+    margin: 0vh 0.3vh ;
+}
+
+.terc{
+    flex-grow: 1;
+}

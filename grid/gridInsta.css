@@ -1,0 +1,86 @@
+body{
+    background-color: #fafafa;
+    text-align: center;
+    color: black;
+
+}
+
+
+#site{
+
+    margin: 0 auto;
+    display: grid;
+
+
+    grid-template-areas: 
+    'menuTop menuTop menuTop'
+    'fotoPerf infoPerf infoPerf'
+    'menuFeed menuFeed menuFeed'
+    'fotos fotos fotos';
+
+}
+
+
+
+
+
+
+#menuTop {
+    background-color: #ffffff;
+    padding: 1em;
+    grid-area: menuTop;
+    height: 30px;
+    border: 0.5em solid red;
+}
+
+#fotoPerf {
+    background-color: black;
+    padding: 1em;
+    height: 7em;
+    color: white;
+    grid-area: fotoPerf;
+    margin: 40px 90px 0px 230px;
+     border-radius: 50%; 
+     border: 0.5em solid gray;
+    
+
+}
+
+#infoPerf{
+    grid-area: infoPerf;
+    height: 3em;
+    padding: 10em;
+    background-color: #fafafa;
+    margin: 10px 200px 0px 0px;
+    border: 0.5em solid goldenrod;
+}
+
+#menuFeed {
+    grid-area: menuFeed;
+    height: 2em;
+    background-color: #fafafa;
+    margin: 10px 200px 0px 200px;
+    padding: 1em;
+    border: 0.5em solid goldenrod;
+}
+
+#fotos {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    column-gap: 1em;
+    row-gap: 1em;
+    grid-area: fotos;
+    height: 30em;
+    background-color: #fafafa;
+    margin: 10px 200px 0px 200px;
+    padding: 1em;
+    border: 0.5em solid goldenrod;
+    
+}
+
+.foto{
+    background-color: violet;
+    border: 2px solid black;
+    padding: 0em;
+    height: 14em;
+}

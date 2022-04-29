@@ -1,0 +1,105 @@
+body {
+    color: white;
+    background-color: #181818;
+    text-align: center;
+}
+
+#site {
+   
+    display: grid;
+
+    grid-template-areas:
+    'menuTop         menuTop          menuTop'
+    'player          player           publicidade'
+    'player          player           videosSugeridos'
+    'opcoesVideo     opcoesVideo      videosSugeridos'
+    'infoVideo       infoVideo        videosSugeridos'
+    'fazerComent     fazerComent      videosSugeridos'
+    'comentarios     comentarios      videosSugeridos';
+    
+}
+
+#menuTop{
+    padding: 1em;
+    grid-area: menuTop;
+    height: 15px;
+    border: 0.5em solid yellow;
+    background-color: #202020;
+   
+    
+}
+
+#player{
+    padding: 1em;
+    border: 0.5em solid rgb(188, 255, 188);
+    height: 22em;
+    background-color: black;
+    grid-area: player;
+    margin: 15px 0px 0px 100px;
+}
+
+#publicidade{
+    grid-area: publicidade;
+    padding: 1em;
+    border: 0.5em solid green;
+    height: 5em;
+    margin: 15px 100px 0px 20px;
+}
+
+#videosSugeridos{   
+    grid-area: videosSugeridos;
+    padding: 1em;
+    border: 0.5em solid rgb(6, 69, 6);
+    height: 80em;
+    margin: 20px 100px 0px 20px;
+
+}
+
+#opcoesVid{
+    grid-area: opcoesVideo;
+    padding: 1em;
+    border: 0.5em solid rgb(10, 69, 10);
+    height: 3em;
+    margin: 20px 0px 0px 100px;
+}
+
+#infoVid{
+    grid-area: infoVideo;
+
+    padding: 1em;
+    border: 0.5em solid rgb(69, 50, 6);
+    height: 7em;
+    margin: 20px 0px 0px 100px;
+}
+
+#fazerComent{
+    grid-area: fazerComent;
+    padding: 1em;
+    border: 0.5em solid rgb(6, 28, 69);
+    height: 2em;
+    margin: 20px 0px 0px 100px;
+}
+
+#comentarios{
+    grid-area: comentarios;
+    padding: 1em;
+    border: 0.5em solid rgb(42, 6, 69);
+    height: 32em;
+    margin: 20px 0px 0px 100px;
+}
+
+.comentario{
+    background-color: violet;
+    border: 2px solid black;
+    padding: 1em;
+    height: 4.5em;
+    margin: 20px 0px 0px 0px;
+}
+
+.sugeridos{
+    background-color: rgb(135, 130, 238);
+    border: 2px solid black;
+    padding: 1em;
+    height: 4.5em;
+    margin: 20px 0px 0px 0px;
+}
